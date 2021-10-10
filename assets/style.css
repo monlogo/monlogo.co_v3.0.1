@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+figure {
+    margin: 0;
+}
+
+
+.hero {
+    overflow: hidden;
+    padding: 25px 0;
+}
+
+.hero__container {
+    position: relative;
+    /* width: 100%; */
+    max-width: 1260px;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__content {
+    background-image: url('img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 830px;
+    padding: 70px 28px;
+}
+
+.hero__text {
+    max-width: 516px;
+}
+
+.hero__logo {
+    margin-bottom: 15px;
+}
+
+.hero__title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 114%;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hero__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 48px;
+}
+
+.hero__wsp {
+    position: absolute;
+    bottom: -115px;
+    right: 13%;
+    max-width: 260px;
+}
+
+.hero__wsp img {
+    width: 100%;
+}
+
+.btn {
+    background-color: #F5D265;
+    box-shadow: 0px 3px 15px rgba(134, 83, 6, 0.5);
+    border-radius: 14.24px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+    transition: all ease-in 200ms;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 3px 15px rgba(243, 180, 86, 0.66);
+}
+.hero__link {
+    color: #222222;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -1.5pxem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+@media only screen and (min-width: 375px) {
+    .hero__wsp {
+        right: 15%;
+        max-width: 290px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        padding: 45px 0 75px;
+    }
+    
+    .hero__content {
+        display: flex;
+        height: auto;
+        padding: 113px 80px 165px;
+    }
+
+    .hero__title {
+        font-size: 70px;
+        margin-bottom: 15px;
+    }
+
+    .hero__subtitle {
+        font-size: 21px;
+        margin-bottom: 35px;
+    }
+
+    .hero__wsp {
+        bottom: -172px;
+        right: 100px;
+        max-width: 340px;
+    }
+
+    .btn {
+        width: auto;
+        padding: 12px 40px;
+    }
+}
